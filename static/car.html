@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Автомобиль — multiavto</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <a class="site-brand" href="index.html">
+            <img src="images/multiavto-logo.png" alt="Логотип multiavto">
+            <span>multiavto</span>
+        </a>
+
+        <nav aria-label="Основное меню">
+            <a href="index.html">Главная</a>
+            <a href="catalog.html">Каталог</a>
+            <a href="comparison.html">Сравнение</a>
+            <a href="contacts.html">Контакты</a>
+            <a href="account.html">Личный кабинет</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1 id="car-title">Автомобиль</h1>
+        <p id="car-status" role="status">Загружаем информацию…</p>
+
+        <article id="car-detail" hidden>
+            <img class="car-main-photo"
+                 id="car-photo"
+                 alt="Фотография выбранного автомобиля">
+
+            <h2>Описание</h2>
+            <p id="car-description"></p>
+
+            <h2>Характеристики</h2>
+            <ul id="car-specs"></ul>
+
+            <p><strong id="car-price"></strong></p>
+
+            <button type="button" id="car-compare">
+                Добавить в сравнение
+            </button>
+            <p id="car-action-status" role="status"></p>
+
+            <h2>Другие фотографии</h2>
+            <div class="car-gallery" id="car-gallery"></div>
+        </article>
+
+        <p><a href="catalog.html">Вернуться в каталог</a></p>
+    </main>
+
+    <footer>
+        <p>multiavto</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,437 @@
+[
+  {
+    "id": 1,
+    "name": "Dodge Challenger GT",
+    "year": 2022,
+    "mileage": 18000,
+    "price": 5900000,
+    "body": "купе",
+    "description": "Спортивное купе с выразительным дизайном.",
+    "image": "images/dodge-challenger.jpg",
+    "image_alt": "Серый Dodge Challenger GT, вид снаружи",
+    "gallery": [
+      {
+        "src": "images/dodge-challenger-interior.jpg",
+        "alt": "Салон Dodge Challenger GT"
+      },
+      {
+        "src": "images/dodge-challenger-seats.jpg",
+        "alt": "Сиденья Dodge Challenger GT"
+      },
+      {
+        "src": "images/dodge-challenger-wheel.jpg",
+        "alt": "Колесо Dodge Challenger GT"
+      },
+      {
+        "src": "images/dodge-challenger-detail.jpg",
+        "alt": "Детали кузова Dodge Challenger GT"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "BMW M5 F90",
+    "year": 2021,
+    "mileage": 32000,
+    "price": 10900000,
+    "body": "седан",
+    "description": "Спортивный седан для тех, кто ценит динамику и комфорт.",
+    "image": "images/bmw-m5-f90.jpg",
+    "image_alt": "Красный BMW M5 F90, вид спереди",
+    "gallery": [
+      {
+        "src": "images/bmw-m5-f90-top.jpg",
+        "alt": "BMW M5 F90, вид сверху"
+      },
+      {
+        "src": "images/bmw-m5-f90-side.jpg",
+        "alt": "BMW M5 F90, вид сбоку"
+      },
+      {
+        "src": "images/bmw-m5-f90-interior.jpg",
+        "alt": "Передние сиденья и руль BMW M5 F90"
+      },
+      {
+        "src": "images/bmw-m5-f90-dashboard.jpg",
+        "alt": "Приборная панель BMW M5 F90"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Ferrari F8 Spider",
+    "year": 2022,
+    "mileage": 12000,
+    "price": 31000000,
+    "body": "кабриолет",
+    "description": "Открытый спортивный автомобиль с ярким дизайном.",
+    "image": "images/ferrari-f8-spider.jpg",
+    "image_alt": "Жёлтая Ferrari F8 Spider, вид спереди",
+    "gallery": [
+      {
+        "src": "images/ferrari-f8-spider-top.jpg",
+        "alt": "Ferrari F8 Spider, вид сверху"
+      },
+      {
+        "src": "images/ferrari-f8-spider-rear.jpg",
+        "alt": "Ferrari F8 Spider, вид сзади"
+      },
+      {
+        "src": "images/ferrari-f8-spider-dashboard.jpg",
+        "alt": "Приборная панель Ferrari F8 Spider"
+      },
+      {
+        "src": "images/ferrari-f8-spider-seats.jpg",
+        "alt": "Сиденья Ferrari F8 Spider"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Chevrolet Camaro SS",
+    "year": 2024,
+    "mileage": 9000,
+    "price": 9800000,
+    "body": "купе",
+    "description": "Спортивное купе с узнаваемым американским дизайном.",
+    "image": "images/chevrolet-camaro.jpg",
+    "image_alt": "Чёрный Chevrolet Camaro SS, вид спереди",
+    "gallery": [
+      {
+        "src": "images/chevrolet-camaro-side.jpg",
+        "alt": "Chevrolet Camaro SS, вид сбоку"
+      },
+      {
+        "src": "images/chevrolet-camaro-rear.jpg",
+        "alt": "Chevrolet Camaro SS, вид сзади"
+      },
+      {
+        "src": "images/chevrolet-camaro-dashboard.jpg",
+        "alt": "Приборная панель Chevrolet Camaro SS"
+      },
+      {
+        "src": "images/chevrolet-camaro-seats.jpg",
+        "alt": "Передние сиденья Chevrolet Camaro SS"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Porsche 911 GT3 RS",
+    "year": 2023,
+    "mileage": 7000,
+    "price": 29000000,
+    "body": "купе",
+    "description": "Спортивное купе, созданное с акцентом на управляемость и аэродинамику.",
+    "image": "images/porsche-911-gt3-rs.jpg",
+    "image_alt": "Белый Porsche 911 GT3 RS спереди",
+    "gallery": [
+      {
+        "src": "images/porsche-911-gt3-rs-side.jpg",
+        "alt": "Porsche 911 GT3 RS сбоку"
+      },
+      {
+        "src": "images/porsche-911-gt3-rs-rear.jpg",
+        "alt": "Porsche 911 GT3 RS сзади"
+      },
+      {
+        "src": "images/porsche-911-gt3-rs-dashboard.jpg",
+        "alt": "Приборная панель Porsche 911 GT3 RS"
+      },
+      {
+        "src": "images/porsche-911-gt3-rs-seats.jpg",
+        "alt": "Сиденья Porsche 911 GT3 RS"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Ram 1500 Rebel",
+    "year": 2025,
+    "mileage": 8000,
+    "price": 12900000,
+    "body": "пикап",
+    "description": "Полноразмерный пикап с просторным салоном и выразительным дизайном.",
+    "image": "images/ram-1500-rebel.jpg",
+    "image_alt": "Красный Ram 1500 Rebel, вид спереди",
+    "gallery": [
+      {
+        "src": "images/ram-1500-rebel-side.jpg",
+        "alt": "Ram 1500 Rebel сбоку"
+      },
+      {
+        "src": "images/ram-1500-rebel-rear.jpg",
+        "alt": "Ram 1500 Rebel сзади"
+      },
+      {
+        "src": "images/ram-1500-rebel-dashboard.jpg",
+        "alt": "Руль и приборная панель Ram 1500 Rebel"
+      },
+      {
+        "src": "images/ram-1500-rebel-seats.jpg",
+        "alt": "Передние сиденья Ram 1500 Rebel"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "McLaren 750S",
+    "year": 2024,
+    "mileage": 4000,
+    "price": 39000000,
+    "body": "купе",
+    "description": "Спортивное купе с выразительным дизайном и двухместным салоном.",
+    "image": "images/mclaren-750s.jpg",
+    "image_alt": "Белый McLaren 750S, вид спереди",
+    "gallery": [
+      {
+        "src": "images/mclaren-750s-rear.jpg",
+        "alt": "McLaren 750S, вид сзади и сбоку"
+      },
+      {
+        "src": "images/mclaren-750s-dashboard.jpg",
+        "alt": "Приборная панель McLaren 750S"
+      },
+      {
+        "src": "images/mclaren-750s-seats.jpg",
+        "alt": "Сиденья McLaren 750S"
+      },
+      {
+        "src": "images/mclaren-750s-rear-detail.jpg",
+        "alt": "Задняя часть McLaren 750S"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "BMW X7 M50d",
+    "year": 2020,
+    "mileage": 70000,
+    "price": 8900000,
+    "body": "внедорожник",
+    "description": "Большой внедорожник с просторным салоном и комфортным оснащением.",
+    "image": "images/bmw-x7-m50d.jpg",
+    "image_alt": "Тёмно-синий BMW X7 M50d, вид спереди и сбоку",
+    "gallery": [
+      {
+        "src": "images/bmw-x7-m50d-rear.jpg",
+        "alt": "BMW X7 M50d, вид сзади"
+      },
+      {
+        "src": "images/bmw-x7-m50d-side.jpg",
+        "alt": "BMW X7 M50d, вид сбоку"
+      },
+      {
+        "src": "images/bmw-x7-m50d-dashboard.jpg",
+        "alt": "Руль и приборная панель BMW X7 M50d"
+      },
+      {
+        "src": "images/bmw-x7-m50d-interior.jpg",
+        "alt": "Салон BMW X7 M50d"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Ferrari SF90 Stradale",
+    "year": 2022,
+    "mileage": 6000,
+    "price": 50000000,
+    "body": "купе",
+    "description": "Спортивный автомобиль с ярким дизайном и двухместным салоном.",
+    "image": "images/ferrari-sf90.jpg",
+    "image_alt": "Красная Ferrari SF90 Stradale, вид спереди и сбоку",
+    "gallery": [
+      {
+        "src": "images/ferrari-sf90-rear.jpg",
+        "alt": "Ferrari SF90 Stradale, вид сзади"
+      },
+      {
+        "src": "images/ferrari-sf90-side.jpg",
+        "alt": "Ferrari SF90 Stradale, вид сбоку"
+      },
+      {
+        "src": "images/ferrari-sf90-dashboard.jpg",
+        "alt": "Приборная панель Ferrari SF90 Stradale"
+      },
+      {
+        "src": "images/ferrari-sf90-seats.jpg",
+        "alt": "Сиденья Ferrari SF90 Stradale"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Rolls-Royce Cullinan Black Badge",
+    "year": 2024,
+    "mileage": 2000,
+    "price": 70000000,
+    "body": "внедорожник",
+    "description": "Роскошный внедорожник с просторным салоном и необычной отделкой.",
+    "image": "images/rolls-royce-cullinan.jpg",
+    "image_alt": "Белый Rolls-Royce Cullinan Black Badge, вид спереди",
+    "gallery": [
+      {
+        "src": "images/rolls-royce-cullinan-rear.jpg",
+        "alt": "Rolls-Royce Cullinan Black Badge, вид сзади"
+      },
+      {
+        "src": "images/rolls-royce-cullinan-side.jpg",
+        "alt": "Rolls-Royce Cullinan Black Badge, вид сбоку"
+      },
+      {
+        "src": "images/rolls-royce-cullinan-dashboard.jpg",
+        "alt": "Приборная панель Rolls-Royce Cullinan Black Badge"
+      },
+      {
+        "src": "images/rolls-royce-cullinan-seats.jpg",
+        "alt": "Сиденья Rolls-Royce Cullinan Black Badge"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Porsche 718 Cayman GT4 RS",
+    "year": 2022,
+    "mileage": 9000,
+    "price": 20000000,
+    "body": "купе",
+    "description": "Спортивное купе с большим задним антикрылом и двухместным салоном.",
+    "image": "images/porsche-cayman-gt4-rs.jpg",
+    "image_alt": "Серый Porsche 718 Cayman GT4 RS, вид спереди",
+    "gallery": [
+      {
+        "src": "images/porsche-cayman-gt4-rs-rear.jpg",
+        "alt": "Porsche 718 Cayman GT4 RS, вид сзади"
+      },
+      {
+        "src": "images/porsche-cayman-gt4-rs-driving.jpg",
+        "alt": "Porsche 718 Cayman GT4 RS на трассе"
+      },
+      {
+        "src": "images/porsche-cayman-gt4-rs-dashboard.jpg",
+        "alt": "Приборная панель Porsche 718 Cayman GT4 RS"
+      },
+      {
+        "src": "images/porsche-cayman-gt4-rs-seats.jpg",
+        "alt": "Сиденья Porsche 718 Cayman GT4 RS"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Lamborghini Huracán EVO",
+    "year": 2021,
+    "mileage": 12000,
+    "price": 25000000,
+    "body": "купе",
+    "description": "Спортивное купе с низким кузовом и ярким красно-чёрным салоном.",
+    "image": "images/lamborghini-huracan.jpg",
+    "image_alt": "Серый Lamborghini Huracán EVO, вид спереди и сбоку",
+    "gallery": [
+      {
+        "src": "images/lamborghini-huracan-rear.jpg",
+        "alt": "Lamborghini Huracán EVO, вид сзади"
+      },
+      {
+        "src": "images/lamborghini-huracan-side.jpg",
+        "alt": "Lamborghini Huracán EVO, вид сбоку"
+      },
+      {
+        "src": "images/lamborghini-huracan-dashboard.jpg",
+        "alt": "Приборная панель Lamborghini Huracán EVO"
+      },
+      {
+        "src": "images/lamborghini-huracan-seats.jpg",
+        "alt": "Сиденья Lamborghini Huracán EVO"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "BMW M4 Competition G82",
+    "year": 2021,
+    "mileage": 24000,
+    "price": 11900000,
+    "body": "купе",
+    "description": "Спортивное купе с выразительной решёткой радиатора и спортивным салоном.",
+    "image": "images/bmw-m4.png",
+    "image_alt": "Жёлто-зелёный BMW M4 Competition, вид спереди под углом",
+    "gallery": [
+      {
+        "src": "images/bmw-m4-side.png",
+        "alt": "BMW M4 Competition, вид сбоку"
+      },
+      {
+        "src": "images/bmw-m4-rear.png",
+        "alt": "BMW M4 Competition, вид сзади"
+      },
+      {
+        "src": "images/bmw-m4-seats.png",
+        "alt": "Спортивные сиденья BMW M4 Competition"
+      },
+      {
+        "src": "images/bmw-m4-dashboard.png",
+        "alt": "Руль и приборная панель BMW M4 Competition"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Bugatti Divo",
+    "year": 2020,
+    "mileage": 1500,
+    "price": 650000000,
+    "body": "купе",
+    "description": "Гиперкар с необычным дизайном кузова и контрастной отделкой салона.",
+    "image": "images/bugatti-divo.png",
+    "image_alt": "Серый Bugatti Divo с голубыми элементами, вид спереди под углом",
+    "gallery": [
+      {
+        "src": "images/bugatti-divo-side.png",
+        "alt": "Bugatti Divo, вид сбоку"
+      },
+      {
+        "src": "images/bugatti-divo-rear.png",
+        "alt": "Bugatti Divo, вид сзади под углом"
+      },
+      {
+        "src": "images/bugatti-divo-interior.png",
+        "alt": "Руль и салон Bugatti Divo"
+      },
+      {
+        "src": "images/bugatti-divo-seats.png",
+        "alt": "Сиденья Bugatti Divo"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Ferrari 812 Superfast",
+    "year": 2018,
+    "mileage": 16000,
+    "price": 35000000,
+    "body": "купе",
+    "description": "Спортивное купе с длинным капотом и двухместным салоном.",
+    "image": "images/ferrari-812-superfast.png",
+    "image_alt": "Красная Ferrari 812 Superfast, вид спереди под углом",
+    "gallery": [
+      {
+        "src": "images/ferrari-812-superfast-side.png",
+        "alt": "Ferrari 812 Superfast, вид сбоку"
+      },
+      {
+        "src": "images/ferrari-812-superfast-rear.png",
+        "alt": "Ferrari 812 Superfast, вид сзади под углом"
+      },
+      {
+        "src": "images/ferrari-812-superfast-dashboard.png",
+        "alt": "Руль и приборная панель Ferrari 812 Superfast"
+      },
+      {
+        "src": "images/ferrari-812-superfast-seats.png",
+        "alt": "Сиденья Ferrari 812 Superfast"
+      }
+    ]
+  }
+]

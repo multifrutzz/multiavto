@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог автомобилей — multiavto</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <a class="site-brand" href="index.html">
+            <img src="images/multiavto-logo.png" alt="Логотип multiavto">
+            <span>multiavto</span>
+        </a>
+
+        <nav aria-label="Основное меню">
+            <a href="index.html">Главная</a>
+            <a href="catalog.html">Каталог</a>
+            <a href="comparison.html">Сравнение</a>
+            <a href="contacts.html">Контакты</a>
+            <a href="account.html">Личный кабинет</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Каталог автомобилей</h1>
+        <p>Выберите автомобиль и откройте страницу с подробностями.</p>
+
+        <form class="filters" id="filter-form" novalidate>
+            <div class="form-field">
+                <label for="max-price">Цена до, ₽</label>
+                <input type="number"
+                       id="max-price"
+                       name="max-price"
+                       min="0"
+                       step="1"
+                       aria-describedby="max-price-error">
+                <span class="field-error"
+                      id="max-price-error"
+                      aria-live="polite"></span>
+            </div>
+
+            <div class="form-field">
+                <label for="min-year">Год выпуска от</label>
+                <input type="number"
+                       id="min-year"
+                       name="min-year"
+                       min="1900"
+                       step="1"
+                       aria-describedby="min-year-error">
+                <span class="field-error"
+                      id="min-year-error"
+                      aria-live="polite"></span>
+            </div>
+
+            <div class="form-field">
+                <label for="max-mileage">Пробег до, км</label>
+                <input type="number"
+                       id="max-mileage"
+                       name="max-mileage"
+                       min="0"
+                       step="1"
+                       aria-describedby="max-mileage-error">
+                <span class="field-error"
+                      id="max-mileage-error"
+                      aria-live="polite"></span>
+            </div>
+
+            <div class="form-field">
+                <label for="sort">Сортировка</label>
+                <select id="sort" name="sort">
+                    <option value="default">По умолчанию</option>
+                    <option value="price-asc">Сначала дешевле</option>
+                    <option value="year-desc">Сначала новее</option>
+                </select>
+            </div>
+
+            <div class="filter-actions">
+                <button type="submit">Показать</button>
+                <button type="reset">Сбросить</button>
+            </div>
+        </form>
+
+        <section class="exchange-rates" aria-labelledby="rates-title">
+            <h2 id="rates-title">Цены в другой валюте</h2>
+            <p id="rates-status" role="status">Курс ещё не загружен.</p>
+            <p>
+                <a href="https://www.cbr-xml-daily.ru/">
+                    API для курсов ЦБ РФ
+                </a>
+            </p>
+            <button type="button" id="reload-rates">Обновить курс</button>
+        </section>
+
+        <section>
+            <h2>Автомобили в наличии</h2>
+            <p id="catalog-status" role="status">Загружаем автомобили…</p>
+            <button type="button" id="reload-catalog" hidden>
+                Повторить загрузку
+            </button>
+            <div class="car-list" id="catalog-list"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>multiavto</p>
+    </footer>
+</body>
+</html>

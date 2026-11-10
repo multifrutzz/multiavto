@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Личный кабинет — multiavto</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <a class="site-brand" href="index.html">
+            <img src="images/multiavto-logo.png" alt="Логотип multiavto">
+            <span>multiavto</span>
+        </a>
+
+        <nav aria-label="Основное меню">
+            <a href="index.html">Главная</a>
+            <a href="catalog.html">Каталог</a>
+            <a href="comparison.html">Сравнение</a>
+            <a href="contacts.html">Контакты</a>
+            <a href="account.html">Личный кабинет</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Личный кабинет</h1>
+        <p id="account-status" role="status">Проверяем вход…</p>
+
+        <section id="profile" hidden>
+            <h2>Ваш профиль</h2>
+            <p id="profile-name"></p>
+            <p id="profile-email"></p>
+            <p>
+                <a href="comparison.html">Моё сравнение автомобилей</a>
+            </p>
+            <button type="button" id="logout">Выйти</button>
+        </section>
+
+        <div class="account-forms" id="account-forms" hidden>
+            <section>
+                <h2>Регистрация</h2>
+
+                <form class="contact-form" id="register-form" novalidate>
+                    <div class="form-field">
+                        <label for="register-name">Имя</label>
+                        <input id="register-name"
+                               name="name"
+                               type="text"
+                               minlength="2"
+                               maxlength="80"
+                               autocomplete="name"
+                               required
+                               aria-describedby="register-name-error">
+                        <span class="field-error"
+                              id="register-name-error"
+                              aria-live="polite"></span>
+                    </div>
+
+                    <div class="form-field">
+                        <label for="register-email">Электронная почта</label>
+                        <input id="register-email"
+                               name="email"
+                               type="email"
+                               maxlength="254"
+                               autocomplete="email"
+                               required
+                               aria-describedby="register-email-error">
+                        <span class="field-error"
+                              id="register-email-error"
+                              aria-live="polite"></span>
+                    </div>
+
+                    <div class="form-field">
+                        <label for="register-password">
+                            Пароль (от 8 до 128 символов)
+                        </label>
+                        <input id="register-password"
+                               name="password"
+                               type="password"
+                               minlength="8"
+                               maxlength="128"
+                               autocomplete="new-password"
+                               required
+                               aria-describedby="register-password-error">
+                        <span class="field-error"
+                              id="register-password-error"
+                              aria-live="polite"></span>
+                    </div>
+
+                    <button type="submit">Зарегистрироваться</button>
+                    <p id="register-result" role="status"></p>
+                </form>
+            </section>
+
+            <section>
+                <h2>Вход</h2>
+
+                <form class="contact-form" id="login-form" novalidate>
+                    <div class="form-field">
+                        <label for="login-email">Электронная почта</label>
+                        <input id="login-email"
+                               name="email"
+                               type="email"
+                               maxlength="254"
+                               autocomplete="email"
+                               required
+                               aria-describedby="login-email-error">
+                        <span class="field-error"
+                              id="login-email-error"
+                              aria-live="polite"></span>
+                    </div>
+
+                    <div class="form-field">
+                        <label for="login-password">Пароль</label>
+                        <input id="login-password"
+                               name="password"
+                               type="password"
+                               minlength="8"
+                               maxlength="128"
+                               autocomplete="current-password"
+                               required
+                               aria-describedby="login-password-error">
+                        <span class="field-error"
+                              id="login-password-error"
+                              aria-live="polite"></span>
+                    </div>
+
+                    <button type="submit">Войти</button>
+                    <p id="login-result" role="status"></p>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>multiavto</p>
+    </footer>
+</body>
+</html>

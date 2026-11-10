@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сравнение автомобилей — multiavto</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <a class="site-brand" href="index.html">
+            <img src="images/multiavto-logo.png" alt="Логотип multiavto">
+            <span>multiavto</span>
+        </a>
+
+        <nav aria-label="Основное меню">
+            <a href="index.html">Главная</a>
+            <a href="catalog.html">Каталог</a>
+            <a href="comparison.html">Сравнение</a>
+            <a href="contacts.html">Контакты</a>
+            <a href="account.html">Личный кабинет</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Сравнение автомобилей</h1>
+        <p>
+            Добавляйте автомобили из каталога.
+            Список сохраняется в вашем аккаунте.
+        </p>
+
+        <p id="comparison-status" role="status">
+            Загружаем сравнение…
+        </p>
+
+        <p id="comparison-login" hidden>
+            <a href="account.html">Войти или зарегистрироваться</a>
+        </p>
+
+        <div class="table-wrapper" id="comparison-content" hidden>
+            <table class="comparison-table">
+                <caption>Характеристики выбранных автомобилей</caption>
+                <thead id="comparison-head"></thead>
+                <tbody id="comparison-body"></tbody>
+            </table>
+        </div>
+
+        <p>
+            <a href="catalog.html">Выбрать автомобили в каталоге</a>
+        </p>
+    </main>
+
+    <footer>
+        <p>multiavto</p>
+    </footer>
+</body>
+</html>

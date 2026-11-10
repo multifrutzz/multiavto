@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная — multiavto</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <a class="site-brand" href="index.html">
+            <img src="images/multiavto-logo.png" alt="Логотип multiavto">
+            <span>multiavto</span>
+        </a>
+
+        <nav aria-label="Основное меню">
+            <a href="index.html">Главная</a>
+            <a href="catalog.html">Каталог</a>
+            <a href="comparison.html">Сравнение</a>
+            <a href="contacts.html">Контакты</a>
+            <a href="account.html">Личный кабинет</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Подберите автомобиль под себя</h1>
+        <p>
+            Сравнивайте автомобили и выбирайте подходящий
+            по цене, году и пробегу.
+        </p>
+
+        <section>
+            <h2>Автомобили в наличии</h2>
+            <p id="home-status" role="status">Загружаем автомобили…</p>
+            <div class="car-list" id="home-list"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>multiavto</p>
+    </footer>
+</body>
+</html>
